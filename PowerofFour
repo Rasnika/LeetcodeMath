@@ -1,0 +1,11 @@
+class Solution {
+    public boolean isPowerOfFour(int num) {
+        if(num<=0)
+            return false;
+        if((Math.log(num)/Math.log(4))==Math.ceil(Math.log(num)/Math.log(4)))
+           return true;
+        else
+            return false;
+        
+    }
+}
